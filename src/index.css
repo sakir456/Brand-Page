@@ -44,8 +44,9 @@ button {
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: calc(100vh - 72px);
+    
    
 
 }
@@ -53,7 +54,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    max-width: 500px;
+   width: 600px;
+   padding-left: 120px;
 }
 
 .hero h1{
@@ -86,18 +88,17 @@ button {
 
 }
 .hero-image{
-    width: 500px;
-    height: 500px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
 }
+    
 
 .hero-img{
     width: 400px;
     height: 400px;
-    
+   
    
 
 }
